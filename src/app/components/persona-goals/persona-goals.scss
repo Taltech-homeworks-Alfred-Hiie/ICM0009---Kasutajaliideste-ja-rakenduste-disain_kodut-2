@@ -1,0 +1,22 @@
+.persona-goals {
+  h4 {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+  }
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+    li {
+      margin-bottom: 8px;
+      padding: 8px 12px;
+      background-color: #f0f8ff; // A light, pleasant background color
+      border-left: 3px solid #007bff;
+      border-radius: 4px;
+      font-size: 1em;
+      line-height: 1.5;
+      color: #555;
+    }
+  }
+}

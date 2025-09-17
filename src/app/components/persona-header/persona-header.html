@@ -1,0 +1,12 @@
+<div class="persona-header">
+  <img [src]="persona.imageUrl" alt="{{ persona.name }}" class="persona-image">
+  <h3>{{ persona.name }} - {{ persona.title }}</h3>
+  <p class="description">{{ persona.description }}</p>
+  <div class="details">
+    <p><strong>Vanus:</strong> {{ persona.age }}</p>
+    <p><strong>Perekonnaseis:</strong> {{ persona.maritalStatus }}</p>
+    <p><strong>Amet:</strong> {{ persona.occupation }}</p>
+    <p><strong>Elukoht:</strong> {{ persona.location }}</p>
+    <p><strong>Palk:</strong> {{ persona.income }}</p>
+  </div>
+</div>

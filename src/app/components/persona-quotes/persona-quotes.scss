@@ -1,0 +1,23 @@
+.persona-quotes {
+  h4 {
+    margin-bottom: 15px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+  }
+  .quotes-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    .quote-item {
+      background-color: #f8f8f8;
+      border-left: 4px solid #007bff;
+      padding: 10px 15px;
+      font-style: italic;
+      line-height: 1.6;
+      font-size: 0.95em;
+      color: #444;
+      border-radius: 4px;
+    }
+  }
+}

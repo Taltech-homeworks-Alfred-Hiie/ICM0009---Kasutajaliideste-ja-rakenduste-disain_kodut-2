@@ -1,0 +1,63 @@
+.persona-dashboard-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Creates 4 equal-width columns */
+  grid-template-rows: repeat(2, auto); /* Creates 2 rows that size automatically */
+  gap: 20px;
+  padding: 20px;
+  max-width: 1400px;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+
+  /* First Row: 4 Components */
+  app-persona-header {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+  }
+
+  app-persona-bio {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+  }
+
+  app-persona-categories {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+  }
+
+  app-persona-research-quotes {
+    grid-column: 4 / 5;
+    grid-row: 1 / 2;
+  }
+
+  /* Second Row: 4 Components (or more if needed) */
+  app-persona-needs {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+  }
+
+  app-persona-pain-points {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+  }
+
+  app-persona-ideal-experience {
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+  }
+
+  app-persona-goals {
+    grid-column: 4 / 5;
+    grid-row: 2 / 3;
+  }
+
+  /* Basic styling for all persona module components */
+  ::ng-deep > * {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+  }
+}
