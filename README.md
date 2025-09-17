@@ -28,9 +28,10 @@ Kuna hetkel on tööl ülesandeks arendada edasi olemasolevat äppi, siis tegin 
 Arvutis peavad olema olemas **Node.js** ja **Angular CLI**
 
 Kontrollimaks olemasolu:
-`node --version
-npm --version
-ng --version`
+
+<pre>node --version
+npm --version 
+ng --version</pre>
 
 - Node tuleb *installida* vastavalt operatsioonisüsteemile.
 - Angular CLI *install*:
@@ -39,8 +40,8 @@ ng --version`
 ### Kuidas lokaalselt äppi käivitada:
 
 1) Tuleb kloonida projekt GitHubist ja minna vastavasee kausta:
-`git clone https://github.com/your-username/your-repository-name.git
-cd your-repository-name`
+<pre>git clone https://github.com/your-username/your-repository-name.git
+cd your-repository-name</pre>
 2) Node.js pakettide *installeerimine* `package.json` alusel
 `npm install`
 3) Arendusserveri käivitamine
